@@ -58,6 +58,9 @@ p{
     width: 100%;
     padding-top: 10px;
 }
+.about{
+    overflow-y: hidden;
+}
 /* Extra small devices (phones, 600px and down) */
 @media screen and (min-width:280px) {
     body {
