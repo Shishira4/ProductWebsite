@@ -49,6 +49,15 @@
     background-color: #fff;    
     margin-left: 15px;
 }
+.about
+{
+    overflow: hidden;
+    width: 100%;
+}
+p{
+    width: 100%;
+    padding-top: 10px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media screen and (min-width:280px) {
     body {
@@ -125,8 +134,13 @@
     .about
     {
         font-size:20px;
+        
     }
-    /*the first jumbotron jumps put of view, unable to fix it*/
+    .jumbotron .container
+    {
+        margin-top: 60px;
+    }
+    
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
@@ -168,5 +182,19 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    li
+    {
+        font-size: 18px;
+    }
+    h1 
+    {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .jumbotron{
+        margin-bottom:0px;
+        padding-top: 90px;
+    }
+}
 
